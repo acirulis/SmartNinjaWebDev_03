@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LAYOUTS POSITIONING</title>
+        <style type="text/css">
+            h1 {
+                border: 1px solid red;
+            }
+            div, section, nav {
+                border: 1px solid blue;
+            }
+            span {
+                border: 1px solid green;
+            }
+            #header {
+                max-width: 1000px;
+                margin: auto;
+            }
+            #container {
+                position: relative;
+                max-width: 1000px;
+                margin: auto;
+            }
+            #left-navigation {
+                position: absolute;
+                width: 200px;
+                left: 0;
+            }   
+            .saturs {
+                margin-left: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header"><h1>PAGE HEADER</h1></div>
+        <div id="container">
+            <nav id="left-navigation">
+                <ul>
+                    <li><a href="#">Sānu links 1</a></li>
+                    <li><a href="#">Sānu links 2</a></li>
+                    <li><a href="#">Sānu links 3</a></li>
+                    <li><a href="#">Sānu links 4</a></li>
+                </ul>
+            </nav>
+            <section class="saturs">Kaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgāko</section>
+            <section class="saturs">Aprīlī no Baikonuras kosmodroma startēja PSRS kosmiskais kuģis “Sojuz-1” ar kosmonautu Vladimiru Komarovu, kurš gāja bojā pēc kosmosa kuģa “Sojuz-1” nolaižamā aparāta izpletņu neatvēršanās, kļūstot par pirmo cilvēku, kas gāja bojā kosmosa misijas laikā. Maijā ASV tika palaista Mēness zonde “Lunar Orbiter 4”, bet PSRS, ASV un Apvienotā Karaliste ratificēja līgumu par atomieroču nelietošanu kosmosā.</section>
+            <section class="saturs">Kaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgāko</section>
+        </div>
+    </body>
+</html>

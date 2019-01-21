@@ -1,0 +1,24 @@
+body {
+	font-family: Arial;
+	/*background-color: #AAAAAA;*/
+}
+
+p {
+    color: red;
+}
+
+h1 {
+	font-size: 88px;
+}
+
+#pirmais_paragrafs {
+	color: blue;
+}
+
+.raksts {
+	text-decoration: underline;
+}
+
+.klaseA .klaseB {
+	font-size: 12px;
+}

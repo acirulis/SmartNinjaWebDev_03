@@ -1,0 +1,42 @@
+/* COMMON SETTINGS */
+* {
+   box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+}
+div, footer, h1, nav, section {
+	border: solid 1px red;
+	padding: 10px;
+
+}
+
+.textimage {
+	float: left;
+	margin: 8px;
+}
+
+/* LAYOUT TEST 1 */
+
+#container {
+	overflow: auto;
+}
+
+@media screen and (min-width:600px) {
+	nav {
+		float: left;
+		width: 25%;
+	}
+
+	section{
+		margin-left: 25%;
+	}
+}
+
+
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}

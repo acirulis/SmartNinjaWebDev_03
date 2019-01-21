@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LAYOUTS POSITIONING</title>
+        <style type="text/css">
+            h1 {
+                border: 1px solid red;
+            }
+            div, section, nav {
+                border: 1px solid blue;
+            }
+            span {
+                border: 1px solid green;
+            }
+
+            #header, #container {
+                max-width: 1100px;
+                margin: 0 auto;
+            }
+           
+            @media screen and (min-width: 600px) {
+                #left-navigation {
+                    float: left;
+                    width: 200px;
+                }
+                .saturs {
+                    margin-left: 200px;
+                }
+                .kolonnas {
+                    column-count: 3;
+                }                
+            }
+            @media screen and (max-width: 599px) {
+                #left-navigation li{
+                    display: inline;
+                }                
+                .kolonnas {
+                    column-count: 1;
+                }
+            }
+
+            #container {
+                overflow: auto;
+            }
+
+            .box {
+                width: 80px;
+                height: 80px;
+                display: inline-block;
+                margin: 12px;
+                background-color: #aeaeea;
+            }
+
+        </style>
+    </head>
+    <body>
+         <div id="header"><h1>PAGE HEADER</h1></div>
+        <div id="container">
+            <nav id="left-navigation">
+                <ul>
+                    <li><a href="#">Sānu links 1</a></li>
+                    <li><a href="#">Sānu links 2</a></li>
+                    <li><a href="#">Sānu links 3</a></li>
+                    <li><a href="#">Sānu links 4</a></li>
+                </ul>
+            </nav>
+            <section class="saturs">Kaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgāko</section>
+            <section class="saturs">
+                <h2>Gallery</h2>
+                <div class="box">Some small content item</div>
+                <div class="box">Some small content item</div>
+                <div class="box">Some small content item</div>
+                <div class="box">Some small content item</div>
+                <div class="box">Some small content item</div>
+                <div class="box">Some small content item</div>
+                <div class="box">Some small content item</div>
+                <div class="box">Some small content item</div>
+            </section>
+            <section class="saturs kolonnas">Kaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgākoKaut kāds saturs mājas lapā sākot no augšas - sākot ar svarīgāko</section>
+        </div>
+
+    </body>
+</html>
