@@ -7,7 +7,7 @@ body {
 	font-family: Arial;
 }
 div, footer, h1, nav, section {
-	border: solid 1px red;
+	border: solid 1px green;
 	padding: 10px;
 
 }
