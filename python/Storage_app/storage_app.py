@@ -1,4 +1,4 @@
-from list_storage_functions import *
+from storage_functions import *
 
 file_name = 'lists.txt'
 
