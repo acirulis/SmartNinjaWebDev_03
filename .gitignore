@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 MD/
 .idea
+Heroku_app/
